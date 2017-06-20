@@ -1,0 +1,46 @@
+.passport-holder {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.passport-top {
+  height: 300px;
+  width: 500px;
+  margin: 0 auto;
+  background-color: #E4E8DA;
+  color: white;
+}
+
+.passport-bottom {
+  height: 300px;
+  width: 500px;
+  margin: 0 auto;
+  background-color: grey;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.passport-bottom-right{
+  height: 300px;
+  width: 300px;
+  background-color: #E9ECF1;
+  color: white;
+}
+
+.passport-bottom-left{
+  height: 300px;
+  width: 200px;
+  background-color: #E9ECF1;
+  color: white;
+}
+
+.photo-line{
+  height: 240px;
+  width: 10px;
+  background-color: #2AAAE4;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
