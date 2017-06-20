@@ -1,3 +1,6 @@
+body {
+  background-color: #5383AB;
+}
 .passport-holder {
   display: flex;
   flex-direction: column;
@@ -10,6 +13,7 @@
   margin: 0 auto;
   background-color: #E4E8DA;
   color: white;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .photo-line-top{
@@ -29,6 +33,7 @@
   color: white;
   display: flex;
   flex-direction: row;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
 }
 
 .passport-bottom-right{
