@@ -1,6 +1,33 @@
 body {
   background-color: #5383AB;
 }
+
+.nav, .nav1, .nav2, .nav3{
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style: none;
+  border: 5px solid grey;
+  padding: 15px 15px 15px 15px;
+}
+
+.nav:hover, .nav1:hover, .nav2:hover, .nav3:hover{
+  border-color: red;
+  transition: all .5s ease-in-out;
+}
+
+.active {
+  background: green;
+}
+
+.menubar{
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 50px;
+  align-items: center;
+
+}
+
 .passport-holder {
   display: flex;
   flex-direction: column;
@@ -33,7 +60,7 @@ body {
   color: white;
   display: flex;
   flex-direction: row;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .passport-bottom-right{
