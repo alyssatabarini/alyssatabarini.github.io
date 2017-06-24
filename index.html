@@ -9,26 +9,42 @@
 <body>
 
 
-   <div class="main-photo">
-        <div class="greeting">
-          <h1 class="hello">Hi I'm Aly! </h1>
-          <div class="type-area">
-                <span class="type"></span>
-          </div>
-        </div>
+  <div class="main-photo">
+    <div class="greeting">
+      <h1 class="hello">Hi I'm Aly! </h1>
+      <div class="type-area">
+        <span class="type"></span>
+      </div>
+    </div>
 
-   </div>
+  </div>
 
-   <script src="./js/typed.min.js"></script>
-   <script>
-     document.addEventListener('DOMContentLoaded', function(){
-         Typed.new('.type', {
-           strings: ["Traveler.", "Photographer.","New Yorker.", "Wanderluster."],
-           typeSpeed: 75,
-           backSpeed: 50
-         });
-     });
-   </script>
+  <svg height="500" width="500">
+    <defs>
+      <style type="text/css">
+        @font-face {
+          font-family: alyFont;
+          src: url("./Fonts/Circular_Air-Bold.woff2");
+          font-style: normal;
+        }
+      </style>
+    </defs>
+
+    <circle id="myCircle" cx="200" cy="200" r="100" stroke="black" stroke-width="3" fill="transparent">
+    </circle>
+    <text id="at" x="190" y="200"> AT </text>
+  </svg>
+
+  <script src="./js/typed.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      Typed.new('.type', {
+        strings: ["Technologist.", "Photographer.", "New Yorker.", "Wanderluster."],
+        typeSpeed: 75,
+        backSpeed: 50
+      });
+    });
+  </script>
 </body>
 
 </html>

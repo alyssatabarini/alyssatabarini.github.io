@@ -4,35 +4,56 @@
   font-style: normal;
 }
 
-.typed-cursor{
-    font-size: 30px;
-    color: white;
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+.typed-cursor {
+  font-size: 30px;
+  color: white;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }
 
-body{
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
   font-family: alyFont;
 }
 
-.main-photo{
+.main-photo {
   background: url("./websitebackground.JPG");
   background-size: cover;
   min-height: 100%;
@@ -41,11 +62,10 @@ body{
   right: 0;
   top: 0;
   opacity: 0.6;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .4);
 }
 
-
-.greeting{
+.greeting {
   margin: auto;
   top: 0;
   bottom: 0;
@@ -54,22 +74,61 @@ body{
   position: absolute;
   width: 600px;
   height: 400px;
-
 }
 
-.hello{
+.hello {
   color: white;
   text-align: center;
   font-size: 90px;
-
 }
 
-.type-area{
+.type-area {
   text-align: center;
 }
 
-.type{
+.type {
   color: white;
   align: center;
   font-size: 40px;
+}
+
+.circle {
+  height: 80px;
+  width: 80px;
+  border: 10px solid blue;
+  clip: rect(0px, 100px, 100px, 0px);
+  position: absolute;
+  border-radius: 50px;
+}
+
+#myCircle {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: draw 10s forwards;
+}
+
+#at {
+  font-family: alyFont;
+  animation: appear 10s forwards;
+  font-size: 40px;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 1000;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
 }
