@@ -7,50 +7,28 @@
 </head>
 
 <body>
-  <h3> Alyssa Tabarini </h3>
-
-  <nav>
-    <ul class="menubar">
-      <li class="nav"> home </li>
-      <li class="nav"> about </li>
-      <li class="nav"> photos </li>
-      <li class="nav"> contact me </li>
-    </ul>
-  </nav>
 
 
-  <div class="passport-holder">
-    <div class="passport-top">
-      <div class="photo-line-top"></div>
-    </div>
+   <div class="main-photo">
+        <div class="greeting">
+          <h1 class="hello">Hi I'm Aly! </h1>
+          <div class="type-area">
+                <span class="type"></span>
+          </div>
+        </div>
 
-    <div class="passport-bottom">
-      <div class="passport-bottom-left">
-        <div class="photo-line"></div>
-        <div class="passport-photo">
-          <img src="./passportphoto2.png" />
+   </div>
 
-        </div>
-      </div>
-      <div class="passport-bottom-right">
-        <div class="passport-name">
-        </div>
-        <div class="passport-name1">
-        </div>
-        <div class="passport-name2">
-        </div>
-        <div class="passport-name3">
-        </div>
-        <div class="passport-name4">
-        </div>
-        <div class="passport-name5">
-        </div>
-        <div class="passport-name6">
-        </div>
-      </div>
-
-    </div>
-  </div>
+   <script src="./js/typed.min.js"></script>
+   <script>
+     document.addEventListener('DOMContentLoaded', function(){
+         Typed.new('.type', {
+           strings: ["Traveler.", "Photographer.","New Yorker.", "Wanderluster."],
+           typeSpeed: 75,
+           backSpeed: 50
+         });
+     });
+   </script>
 </body>
 
 </html>
