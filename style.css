@@ -245,6 +245,9 @@ body {
   -moz-background-size: 200px 200px;
   -o-background-size: 200px 200px;
   transition: all .5s ease-in-out;
+  -webkit-transiton:all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
 }
 
 .linkedin:hover {
@@ -254,6 +257,9 @@ body {
   -moz-background-size: 126px 207px;
   -o-background-size: 126px 207px;
   transition: all .5s ease-in-out;
+  -webkit-transiton:all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
 }
 
 .instagram:hover {
@@ -263,6 +269,9 @@ body {
   -moz-background-size: 145px 184px;
   -o-background-size: 145px 184px;
   transition: all .5s ease-in-out;
+  -webkit-transiton:all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
 }
 
 .github:hover {
@@ -272,4 +281,7 @@ body {
   -moz-background-size: 154px 191px;
   -o-background-size: 154px 191px;
   transition: all .5s ease-in-out;
+  -webkit-transiton:all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
 }
