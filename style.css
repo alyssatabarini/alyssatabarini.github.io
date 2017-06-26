@@ -173,12 +173,13 @@ body {
   background: url("./icons/Mail.svg");
   background-repeat: no-repeat;
   display: block;
-  background-size: 200px 200px;
-  -webkit-background-size:200px 200px;
-  -moz-background-size: 200px 200px;
-  -o-background-size: 200px 200px;
+  background-size: auto auto;
+  -webkit-background-size:auto auto;
+  -moz-background-size: auto auto;
+  -o-background-size: auto auto;
   position: relative;
   right: 50px;
+  top: 10px;
 }
 
 .linkedin1 {
@@ -191,13 +192,13 @@ body {
   width: inherit;
   height: inherit;
   background-repeat: no-repeat;
-  background-size: 126px 207px;
-  -webkit-background-size:126px 207px;
-  -moz-background-size: 126px 207px;
-  -o-background-size: 126px 207px;
+  background-size: auto auto;
+  -webkit-background-size:auto auto;
+  -moz-background-size: auto auto;
+  -o-background-size: auto auto;
   display: block;
   position: relative;
-  right: 100px;
+  right: 120px;
 }
 
 .instagram1 {
@@ -209,10 +210,10 @@ body {
   background: url("./icons/Instagram.svg");
   width: inherit;
   height: inherit;
-  background-size: 145px 184px;
-  -webkit-background-size:145px 184px;
-  -moz-background-size: 145px 184px;
-  -o-background-size: 145px 184px;
+  background-size: auto auto;
+  -webkit-background-size:auto auto;
+  -moz-background-size: auto auto;
+  -o-background-size: auto auto;
   background-repeat: no-repeat;
   display: block;
   position: relative;
@@ -228,10 +229,10 @@ body {
   width: inherit;
   height: inherit;
   background: url("./icons/Github.svg");
-  background-size: 154px 191px;
-  -webkit-background-size:154px 191px;
-  -moz-background-size: 154px 191px;
-  -o-background-size: 154px 191px;
+  background-size: auto auto;
+  -webkit-background-size:auto auto;
+  -moz-background-size: auto auto;
+  -o-background-size: auto auto;
   background-repeat: no-repeat;
   display: block;
   position: relative;
@@ -240,48 +241,36 @@ body {
 
 .email:hover {
   background: url("./coloricons/Mail.svg") no-repeat;
-  background-size: 200px 200px;
-  -webkit-background-size:200px 200px;
-  -moz-background-size: 200px 200px;
-  -o-background-size: 200px 200px;
-  transition: all .5s ease-in-out;
-  -webkit-transiton:all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -o-transition: all .5s ease-in-out;
+  background-size: auto auto;
+  -webkit-background-size:auto auto;
+  -moz-background-size: auto auto;
+  -o-background-size: auto auto;
+  background-repeat: no-repeat;
 }
 
 .linkedin:hover {
   background: url("./coloricons/LinkedIn.svg") no-repeat;
-  background-size: 126px 207px;
-  -webkit-background-size:126px 207px;
-  -moz-background-size: 126px 207px;
-  -o-background-size: 126px 207px;
-  transition: all .5s ease-in-out;
-  -webkit-transiton:all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -o-transition: all .5s ease-in-out;
+  background-size: auto auto;
+  -webkit-background-size:auto auto;
+  -moz-background-size: auto auto;
+  -o-background-size: auto auto;
+  background-repeat: no-repeat;
 }
 
 .instagram:hover {
   background: url("./coloricons/Instagram.svg") no-repeat;
-  background-size: 145px 184px;
-  -webkit-background-size:145px 184px;
-  -moz-background-size: 145px 184px;
-  -o-background-size: 145px 184px;
-  transition: all .5s ease-in-out;
-  -webkit-transiton:all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -o-transition: all .5s ease-in-out;
+  background-size: auto auto;
+  -webkit-background-size:auto auto;
+  -moz-background-size: auto auto;
+  -o-background-size: auto auto;
+  background-repeat: no-repeat;
 }
 
 .github:hover {
   background: url("./coloricons/Github.svg") no-repeat;
-  background-size: 154px 191px;
-  -webkit-background-size:154px 191px;
-  -moz-background-size: 154px 191px;
-  -o-background-size: 154px 191px;
-  transition: all .5s ease-in-out;
-  -webkit-transiton:all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -o-transition: all .5s ease-in-out;
+  background-size: auto auto;
+  -webkit-background-size:auto auto;
+  -moz-background-size: auto auto;
+  -o-background-size: auto auto;
+  background-repeat: no-repeat;
 }
