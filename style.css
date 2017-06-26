@@ -117,7 +117,6 @@ body {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
@@ -127,8 +126,126 @@ body {
   from {
     stroke-dashoffset: 1000;
   }
-
   to {
     stroke-dashoffset: 0;
   }
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-right: 50px;
+  float: right;
+}
+
+.active {
+  border-color: grey;
+}
+
+.home, .news, .contact, .about {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: auto;
+  align-items: center;
+}
+
+.home:hover, .news:hover, .contact:hover, .about:hover {
+  color: white;
+  transition: all .5s ease-in-ease-out;
+}
+
+.social-icon {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+.email1 {
+  width: 200px;
+  height: 200px;
+}
+
+.email {
+  width: inherit;
+  height: inherit;
+  background: url("./icons/Mail.svg");
+  background-repeat: no-repeat;
+  display: block;
+  background-size: 200px 200px;
+  position: relative;
+  right: 50px;
+}
+
+.linkedin1 {
+  width: 200px;
+  height: 200px;
+}
+
+.linkedin {
+  background: url("./icons/Linkedin.svg");
+  width: inherit;
+  height: inherit;
+  background-repeat: no-repeat;
+  background-size: 126px 207px;
+  display: block;
+  position: relative;
+  right: 100px;
+}
+
+.instagram1 {
+  width: 200px;
+  height: 200px;
+}
+
+.instagram {
+  background: url("./icons/Instagram.svg");
+  width: inherit;
+  height: inherit;
+  background-size: 145px 184px;
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+  right: 165px;
+}
+
+.github1 {
+  width: 200px;
+  height: 200px;
+}
+
+.github {
+  width: inherit;
+  height: inherit;
+  background: url("./icons/Github.svg");
+  background-size: 154px 191px;
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+  right: 70px;
+}
+
+.email:hover {
+  background: url("./coloricons/Mail.svg") no-repeat;
+  background-size: 200px 200px;
+  transition: all .5s ease-in-out;
+}
+
+.linkedin:hover {
+  background: url("./coloricons/LinkedIn.svg") no-repeat;
+  background-size: 126px 207px;
+  transition: all .5s ease-in-out;
+}
+
+.instagram:hover {
+  background: url("./coloricons/Instagram.svg") no-repeat;
+  background-size: 145px 184px;
+  transition: all .5s ease-in-out;
+}
+
+.github:hover {
+  background: url("./coloricons/Github.svg") no-repeat;
+  background-size: 154px 191px;
+  transition: all .5s ease-in-out;
 }
