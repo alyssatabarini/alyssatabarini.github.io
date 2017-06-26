@@ -174,6 +174,9 @@ body {
   background-repeat: no-repeat;
   display: block;
   background-size: 200px 200px;
+  -webkit-background-size:200px 200px;
+  -moz-background-size: 200px 200px;
+  -o-background-size: 200px 200px;
   position: relative;
   right: 50px;
 }
@@ -189,6 +192,9 @@ body {
   height: inherit;
   background-repeat: no-repeat;
   background-size: 126px 207px;
+  -webkit-background-size:126px 207px;
+  -moz-background-size: 126px 207px;
+  -o-background-size: 126px 207px;
   display: block;
   position: relative;
   right: 100px;
@@ -204,6 +210,9 @@ body {
   width: inherit;
   height: inherit;
   background-size: 145px 184px;
+  -webkit-background-size:145px 184px;
+  -moz-background-size: 145px 184px;
+  -o-background-size: 145px 184px;
   background-repeat: no-repeat;
   display: block;
   position: relative;
@@ -220,6 +229,9 @@ body {
   height: inherit;
   background: url("./icons/Github.svg");
   background-size: 154px 191px;
+  -webkit-background-size:154px 191px;
+  -moz-background-size: 154px 191px;
+  -o-background-size: 154px 191px;
   background-repeat: no-repeat;
   display: block;
   position: relative;
@@ -229,23 +241,35 @@ body {
 .email:hover {
   background: url("./coloricons/Mail.svg") no-repeat;
   background-size: 200px 200px;
+  -webkit-background-size:200px 200px;
+  -moz-background-size: 200px 200px;
+  -o-background-size: 200px 200px;
   transition: all .5s ease-in-out;
 }
 
 .linkedin:hover {
   background: url("./coloricons/LinkedIn.svg") no-repeat;
   background-size: 126px 207px;
+  -webkit-background-size:126px 207px;
+  -moz-background-size: 126px 207px;
+  -o-background-size: 126px 207px;
   transition: all .5s ease-in-out;
 }
 
 .instagram:hover {
   background: url("./coloricons/Instagram.svg") no-repeat;
   background-size: 145px 184px;
+  -webkit-background-size:145px 184px;
+  -moz-background-size: 145px 184px;
+  -o-background-size: 145px 184px;
   transition: all .5s ease-in-out;
 }
 
 .github:hover {
   background: url("./coloricons/Github.svg") no-repeat;
   background-size: 154px 191px;
+  -webkit-background-size:154px 191px;
+  -moz-background-size: 154px 191px;
+  -o-background-size: 154px 191px;
   transition: all .5s ease-in-out;
 }
